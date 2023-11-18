@@ -58,11 +58,8 @@ Book Store a web application where you can search, read, add to cart, save to ca
 - The books you added appear on the cart page 
 - The books you added appear on the cart page. You can delete the book if you wish. You can increase the quantity of the book
 - The cart page shows the total price of the books you have added. If you increase the number of instant books, the price information is updated.
-- Payment safyasında kullanıcın sepete eklediği kitapların genel ücret toplamı yazmaktadır. Kart bilgileri doğruluğu kontrol edilir doğru ise ödeme alınıp ana sayfaya yönlendirme yapılmaktadır.
-(!Ödeme bilgileri sahte!)
-
-## API USED
-[https://developers.google.com/books?hl=tr/](https://developers.google.com/books?hl=tr)
+- In the Payment phase, the general fee total of the books added to the cart by the user is written. The card information is checked for accuracy and if it is correct, the payment is received and redirected to the main page.
+(!Payment information is fake!)
 
 ## LIVE DEMO
 
