@@ -18,9 +18,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
     "baseUrl": "./",
+    "types": ["vite", "vite/client"],
     "paths": {
       "@/*": ["./src/*"],
+      
   },
 },
 "include": ["src"],
