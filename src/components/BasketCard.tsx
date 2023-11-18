@@ -55,7 +55,7 @@ const BasketCard = ({ item, setTotalAmountData, totalAmountData }: IBasketCard) 
     // Remove item from cart
     dispatch(SET_BASKET(basket?.filter((item: any) => item?.id !== id)));
 
-    // Eğer silinen öğe array içinde varsa, onu da çıkar
+    // If the deleted item exists in an array, remove it too
     if (totalAmountData) {
       const updatedArray = totalAmountData?.filter((elem) => elem.id !== id);
       setTotalAmountData(updatedArray);
