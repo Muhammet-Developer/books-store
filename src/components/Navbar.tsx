@@ -41,7 +41,7 @@ const Navbar = ({ setBooksData }: INavbarProps) => {
           <img src="/booksStoreLogo.png" alt="Books-store" className="h-20 cursor-pointer" onClick={() => navigate('/')} />
           <p className="text-2xl font-serif text-[#16BDCA] ml-4 lg:ml-0 cursor-pointer" onClick={() => navigate('/')}>BooksStore.com</p>
         </div>
-        <form onSubmit={handleSubmit}>{}
+        <form onSubmit={handleSubmit}>
           <div className="flex h-12 items-center sm:justify-center">
             <input type="search"  placeholder='Search for book title, author or publisher' onChange={(e: any) => setSearch(e.target.value)} className=" h-12 w-80 xs:w-72 px-3 py-2 bg-white border border-slate-300 rounded-l-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500"/>
