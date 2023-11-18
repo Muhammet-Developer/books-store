@@ -1,0 +1,27 @@
+export const month = [
+    { month: 1 },
+    { month: 2 },
+    { month: 3 },
+    { month: 4 },
+    { month: 5 },
+    { month: 6 },
+    { month: 7 },
+    { month: 8 },
+    { month: 9 },
+    { month: 10 },
+    { month: 11 },
+    { month: 12 },
+];
+export const year = [
+    { year: 24 },
+    { year: 25 },
+    { year: 26 },
+    { year: 27 },
+    { year: 28 },
+    { year: 29 },
+    { year: 30 },
+    { year: 31 },
+    { year: 32 },
+    { year: 33 },
+    { year: 34 },
+];
