@@ -17,6 +17,7 @@ dist-ssr
 
 # misc
 .env
+config.ts
 .DS_Store
 .env.local
 .env.development.local

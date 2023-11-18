@@ -3,7 +3,7 @@ import { api } from '../services/book.service';
 import {  useSelector } from 'react-redux';
 import { basketSelector } from '../store/basket';
 import { useNavigate } from 'react-router-dom';
-
+import config from '../config';
 interface INavbarProps {
     setBooksData: React.Dispatch<any>
 }
@@ -14,11 +14,9 @@ const Navbar = ({ setBooksData }: INavbarProps) => {
   //default search hugo 
   const [search, setSearch] = useState('hugo');
   const navigate = useNavigate();
-  // const key = process.env.VITE_API_BASE_URL;
-  // console.log(key)
   // function where books are thrown on request
   const booksFetch = async () => {
-    const { data } = await api.get(`/volumes?q=${search}&key=${import.meta.env.VITE_API_KEY}&maxResults=40` );
+    const { data } = await api.get(`/volumes?q=${search}&key=${config.apiKey}&maxResults=40` );
     setBooksData(data);
   };
 
