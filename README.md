@@ -18,7 +18,8 @@ Book Store a web application where you can search, read, add to cart, save to ca
 - Toastify
 - React Router
 - Redux toolkit
-- Redux-persist
+- Redux persist
+- Formik and Yup
 - Axios (for books api )
 - Tailwind CSS (for styling)
 - Eslint (for linting)
